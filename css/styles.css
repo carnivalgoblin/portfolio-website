@@ -13,6 +13,7 @@
   --sun-1: #edc655;
   --sun-2: #fcffad;
   --sun-3: #f76414;
+  --black: #000;
 }
 
 /*
@@ -100,10 +101,6 @@ button, .button {
 button:hover, button:focus, .button:hover, .button:focus {
   cursor: pointer;
   opacity: 0.8;
-}
-
-table {
-  margin: 0 auto;
 }
 
 textarea, #contact-email, #contact-telephone {
@@ -214,6 +211,28 @@ hr {
 
 #about-picture {
   max-width: 85%;
+}
+
+table {
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--button-color);
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: var(--black);
+  border-style: solid;
+  color: var(--black);
+}
+
+td, th {
+  border-width: 2px;
+  border-color: var(--black);
+  border-style: solid;
+  padding: 5px;
+}
+
+thead {
+  background-color: var(--grid-item-color);
 }
 
 /* start grid fallback */
