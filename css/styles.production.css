@@ -108,10 +108,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   opacity: 0.8;
 }
 
-table {
-  margin: 0 auto;
-}
-
 textarea, #contact-email, #contact-telephone {
   max-width: 100%;
 }
@@ -164,7 +160,7 @@ hr {
 
 .profile__portrait {
   float: left;
-  width: 250px;
+  width: 40%;
   margin-right: 40px;
   margin-left: 0.67em;
   border-radius: 50%;
@@ -234,6 +230,35 @@ hr {
 
 #about-picture {
   max-width: 85%;
+}
+
+table {
+  margin: 0 auto;
+  text-align: left;
+  background-color: white;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000;
+  border-style: solid;
+  color: #000;
+}
+
+td {
+  border-width: 2px;
+  border-color: #000;
+  border-style: solid;
+  padding: 5px;
+}
+
+th {
+  border-width: 2px;
+  border-color: #000;
+  border-style: solid;
+  padding: 5px;
+}
+
+thead {
+  background-color: #e8e8e8;
 }
 
 /* start grid fallback */
