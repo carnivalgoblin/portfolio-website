@@ -42,7 +42,7 @@ p {
 }
 
 .about p {
-  margin-left: 50px;
+  padding: 0 50px;
 }
 
 h1 {
@@ -138,7 +138,7 @@ hr {
 
 .profile {
   max-width: 100%;
-  margin: 0 20%;
+  padding: 0 20%;
   clear: both;
 }
 
@@ -513,6 +513,10 @@ body {
 
 p {
   margin-bottom: 1em;
+}
+
+.about p {
+  padding: 0 50px;
 }
 
 .page {
