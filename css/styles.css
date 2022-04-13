@@ -72,15 +72,17 @@ h3 {
 
 a {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 a:visited {
   color: var(--secondary-color);
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:active {
