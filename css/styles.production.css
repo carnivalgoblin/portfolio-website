@@ -238,6 +238,7 @@ hr {
 .social-icon {
   width: 40px;
   height: 40px;
+  margin: 0 10px;
 }
 
 #about-picture {
@@ -347,6 +348,7 @@ thead {
   .social-icon {
     width: 20px;
     height: 20px;
+    margin: 0 5px;
   }
 
   .profile p,
