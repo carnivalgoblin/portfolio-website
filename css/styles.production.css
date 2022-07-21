@@ -177,6 +177,10 @@ hr {
   border-radius: 50%;
 }
 
+.meet__app {
+  width: 100%;
+}
+
 /* .welcome-text {
   padding-left: 40px;
 } */
