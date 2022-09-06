@@ -226,6 +226,10 @@ hr {
   margin: 0 10px;
 }
 
+.meet__app {
+  max-width: 150px;
+}
+
 #about-picture {
   max-width: 85%;
 }
