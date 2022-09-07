@@ -232,7 +232,12 @@ hr {
 
 .contact {
   clear: both;
-  padding: 40px;
+  padding: 0 10% !important;
+  text-align: center;
+}
+
+.contact-box {
+  padding-top: 15%;
 }
 
 .social-icon {
