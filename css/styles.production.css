@@ -245,6 +245,7 @@ hr {
   width: 100%;
 }
 
+
 .grid__item {
   border-radius: 10px;
   border-style: solid;
@@ -261,6 +262,16 @@ hr {
 
 .react_native {
   height: 30px;
+}
+
+.prochat {
+  max-height: 330px;
+  max-width: 120px;
+}
+
+.prochat-box {
+  max-height: 350px;
+  text-align: center;
 }
 
 #about-picture {
@@ -311,6 +322,9 @@ thead {
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+
 
     /* grid-template-rows: 300px 300px; */
   }
