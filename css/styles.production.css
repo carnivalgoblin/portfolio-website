@@ -210,6 +210,7 @@ hr {
   -ms-flex-item-align: start;
   align-self: flex-start;
   margin: auto;
+  max-height: 50px;
 }
 
 .page-header__item:last-child {
